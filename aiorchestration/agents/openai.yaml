@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Orchestration"
+  short_description: "Verify AI access and coordinate model-based teamwork"
+  default_prompt: "Use $aiorchestration to verify my AI access and complete this task with a suitable manager and workers."

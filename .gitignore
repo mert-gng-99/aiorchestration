@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+profile.json
+.aiorchestration/
+*.receipt.json
+*.zip
+.DS_Store
+Thumbs.db

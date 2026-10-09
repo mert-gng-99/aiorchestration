@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "onboarding_complete": false,
+  "manager": null,
+  "allow_paid": false,
+  "max_calls_per_task": 8,
+  "max_output_tokens": 4096,
+  "timeout_seconds": 180,
+  "entries": [
+    {"id": "opus", "label": "Opus 5.5 max", "rank": 1, "provider": "anthropic", "transport": "cli", "model": "", "effort": "max", "enabled": false, "cost_class": "paid"},
+    {"id": "sol", "label": "GPT 6.1 Sol medium", "rank": 2, "provider": "openai", "transport": "cli", "model": "gpt-6.1-sol", "effort": "medium", "enabled": false, "cost_class": "paid"},
+    {"id": "sonnet", "label": "Sonnet 5.5", "rank": 3, "provider": "anthropic", "transport": "cli", "model": "", "effort": null, "enabled": false, "cost_class": "paid"},
+    {"id": "haiku", "label": "Haiku 5.5", "rank": 4, "provider": "anthropic", "transport": "cli", "model": "", "effort": null, "enabled": false, "cost_class": "paid"},
+    {"id": "gemini", "label": "Gemini 3.8 high", "rank": 5, "provider": "gemini", "transport": "api", "model": "", "effort": "high", "enabled": false, "cost_class": "unknown", "key_env": "GEMINI_API_KEY"},
+    {"id": "free", "label": "OpenCode verified free", "rank": 6, "provider": "opencode", "transport": "cli", "model": "", "effort": null, "enabled": false, "cost_class": "unknown", "free_verified_on": null}
+  ]
+}
